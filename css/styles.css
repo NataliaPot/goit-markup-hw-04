@@ -317,7 +317,6 @@ img {
     background-color: var(--cloud);
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-bottom: 120px;
 }
 
 
@@ -414,6 +413,7 @@ img {
 }
 
 .section-five-index {
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
