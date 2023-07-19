@@ -345,13 +345,19 @@ img {
 .list-cocial-people {
     display: flex;
     gap: 24px;
-    margin-bottom: 32px;
+    justify-content: center;
+}
+
+.cocial-people {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms var(--transition);
 }
 
 .link-cocial-people {
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     color: var(--cloud);
@@ -366,7 +372,7 @@ img {
 }
 
 .card {
-    padding: 32px 16px 0 16px;
+    padding: 32px 0;
 }
 
 .section-four-text {
