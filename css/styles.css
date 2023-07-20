@@ -629,8 +629,8 @@ img {
     transition: transform 250ms var(--transition);
 }
 
-.table-element:hover .overlay-card,
-.table-element:focus .overlay-card {
+.link-table:hover .overlay-card,
+.link-table:focus .overlay-card {
     transform: translateY(0%)
 }
 
